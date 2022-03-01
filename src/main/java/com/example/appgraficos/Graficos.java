@@ -93,6 +93,8 @@ public class Graficos extends AppCompatActivity {
         //textView = (TextView)findViewById(R.id.textView);
         Bundle extras = getIntent().getExtras();  //crea el elemento que ayuda a jalar los extras
         datos = extras.getString("valText"); //Aqui recibimos los objetos
+
+        /*Aqui se crea el analizador para las palabras*/
         EvaluaTexto evaluaTexto = new EvaluaTexto(datos);
         //datos2 = extras.getSerializable("nombreVAr");
     }

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppGraficos">
         <activity
+            android:name=".Reportes"
+            android:exported="false" />
+        <activity
             android:name=".Graficos"
             android:exported="false" />
         <activity

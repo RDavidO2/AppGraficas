@@ -20,9 +20,11 @@ public class Barras extends BarChart {
 
         ArrayList<BarEntry> datos = new ArrayList<>();
 
-        int[]valores={5,0};
-        datos.add(new BarEntry(valores[5], valores[1]));
-        datos.add(new BarEntry(10f, 1));
+        String[]nameX={"item1","item2"};
+        int[]valoresY={1,2};
+        int[]valoresX={5,0};
+        datos.add(new BarEntry(valoresX[0], valoresY[0]));
+        datos.add(new BarEntry(valoresX[1], valoresY[1]));
         datos.add(new BarEntry(11f, 2));
         datos.add(new BarEntry(12f, 3));
         datos.add(new BarEntry(13f, 4));
@@ -32,11 +34,11 @@ public class Barras extends BarChart {
 
 
 
-
+        String titulo_descripcion = "descripcion_label";
         //Modfificamos las graficas
         this.animateY(3000);
         Description description = new Description();
-        description.setText("descripcion_label");
+        description.setText(titulo_descripcion);
         this.setDescription(description);
 
         //Agregamos los datos
