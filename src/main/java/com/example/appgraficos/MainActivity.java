@@ -26,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
     //Metodo de los botones SIGUIENTE
     public void Siguiente(View view){
         Intent siguiente = new Intent(this, Graficos.class);
+        //Intent siguiente = new Intent(this, Reportes.class);
+
+
         value = inputEditText.getText().toString();
         siguiente.putExtra("valText",value); //Aqui mandamos los elementos que querramos
         //siguiente.putExtra("nombreVar",Objeto); //Aqui mandamos los elementos que querramos

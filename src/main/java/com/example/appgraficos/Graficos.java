@@ -68,7 +68,7 @@ public class Graficos extends AppCompatActivity {
                 startActivity(siguiente);
             }
         });
-        boton_principal.setText("MenuPrincipal");
+        boton_principal.setText("Editar");
         LinearLayout linearLayout2 = new LinearLayout(this);
         linearLayout2.setOrientation(LinearLayout.HORIZONTAL);
         linearLayout.addView(linearLayout2);

@@ -18,9 +18,10 @@
             android:text="TextView" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_reportes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:onClick="Siguiente"
+            android:text="@string/boton_reportes" />
     </LinearLayout>
 </ScrollView>

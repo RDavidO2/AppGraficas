@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">appGraficos</string>
-    <string name="boton_siguiente">siguiente</string>
-    <string name="boton_principal">principal</string>
+
+    <string name="app_name">Graficar</string>
+    <string name="app_principal">Principal</string>
+    <string name="app_reporte">Reportes</string>
+    <string name="app_grafico">Graficos</string>
+    <string name="boton_siguiente">Siguiente</string>
+    <string name="boton_reportes">Regresar</string>
 
 </resources>

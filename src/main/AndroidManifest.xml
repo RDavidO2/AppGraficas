@@ -11,12 +11,15 @@
         android:theme="@style/Theme.AppGraficos">
         <activity
             android:name=".Reportes"
+            android:label="@string/app_reporte"
             android:exported="false" />
         <activity
             android:name=".Graficos"
+            android:label="@string/app_grafico"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:label="@string/app_principal"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
