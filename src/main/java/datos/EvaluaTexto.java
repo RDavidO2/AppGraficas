@@ -14,14 +14,14 @@ public class EvaluaTexto {
 
     public EvaluaTexto(String textIn){
         this.textIn = textIn;
-        init();
+
     }
 
     /**
      * Metodo que inicializa los elementos de la ventana principal, asi como el analizador
      */
-    private void init() {
-
+    public boolean init() {
+        boolean correcto = false;
         reader = new StringReader(textIn);
         System.out.println("reader"+ textIn);
         lexico = new Lexico(reader);
@@ -29,10 +29,16 @@ public class EvaluaTexto {
 
         try {
             sintactico.parse();
+            correcto = true;
+            System.out.println("Analisis completado correctamente");
         } catch (Exception e) {
             //Aqui se maneja el error
+
             System.out.println("Encontre un error OMEGA");
         }
+
+        System.out.println("Regreasre un falso");
+        return correcto;
 
     }
 
