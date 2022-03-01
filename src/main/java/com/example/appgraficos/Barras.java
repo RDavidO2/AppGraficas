@@ -12,6 +12,9 @@ import com.github.mikephil.charting.utils.ColorTemplate;
 import java.util.ArrayList;
 
 public class Barras extends BarChart {
+    /**
+     * 
+     * */
     public Barras(Context context) {
         super(context);
     }
